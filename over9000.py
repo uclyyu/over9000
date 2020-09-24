@@ -1,8 +1,5 @@
-import torch, math
-from torch.optim.optimizer import Optimizer
-import itertools as it
-from lookahead import *
-from ralamb import * 
+from .lookahead import Lookahead
+from .ralamb import Ralamb
 
 # RAdam + LARS + LookAHead
 
